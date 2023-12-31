@@ -5,7 +5,7 @@ import Homepage from "./pages/Homepage";
 import JustAsk from "./pages/JustAsk";
 import MemoryLane from "./pages/MemoryLane";
 import SingItOut from "./pages/SingItOut";
-
+import Majority from "./pages/Majority";
 export default function App() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function App() {
           <Route path="/justask" element={<JustAsk />} />
           <Route path="/singitout" element={<SingItOut />} />
           <Route path="/Memory Lane" element={<MemoryLane />} />
+          <Route path="/majority" element={<Majority />} />
         </Routes>
       </BrowserRouter>
     </>
