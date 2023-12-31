@@ -39,10 +39,10 @@ export default function SingItOut() {
 
   useEffect(() => {
     if (gameStarted) {
-      const id = setTimeout(handlePass, 30000); // set a timer to automatically pass after 30 seconds
-      setTimerId(id); // save the timer id so you can clear it later
+      const id = setTimeout(handlePass, 30000); 
+      setTimerId(id); 
     }
-  }, [gameStarted, turn]); // add turn as a dependency
+  }, [gameStarted, turn]); 
 
   if (score.group1 >= 10) {
     return <h2 className="text-2xl font-bold text-green-500">Group 1 wins!</h2>;
