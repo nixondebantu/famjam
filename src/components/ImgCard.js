@@ -7,7 +7,7 @@ export default function ImgCard(props) {
 
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href={props.route}>
-                <img class="rounded-t-lg" src="https://cdn2.stylecraze.com/wp-content/uploads/2021/07/20-Fun-Games-To-Play-With-Family-At-Home-5.jpg" alt="" />
+                <img class="rounded-t-lg" src={props.imgURL} alt="" />
             </a>
             <div class="p-5">
                 <a href={props.route}>
